@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+ }
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #50c878;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative; 
+    
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+    text-shadow: 0px 6px 6px black;
+    transition: 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+#navbar li a:hover,
+#navbar li a.active {
+    color:#fdfffd;
+}
+    
+#navbar li a.active::after {
+    content:"";
+    width: 30%;
+    height: 2px;
+    background: #edf0f0;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+   
+}
+
+a {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.one img {
+    width: 35%;
+    height: 325px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.one h5 {
+    font-size: 70px;
+    margin-left: 480px;
+    margin-top: -340px;
+    letter-spacing: 5px ;
+    color: green;
+    font-weight: bold;
+
+    }
+
+.onea {
+    
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 43vh;
+        width: 30%;
+        border: 1px solid white;
+        border-radius: 10px;
+      
+        margin-left: 490px;
+        
+   
+}
+
+
+
+.onea p {
+    font-size: 15px;
+    text-align: left;
+   
+}
+
+.oneb {
+    
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 43vh;
+        width: 30%;
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-top: -255px;
+        margin-bottom: 20px;
+        margin-left: 878px;
+        }
+
+        .oneb img {
+            width: 365px;
+            margin-left: 5px;
+            margin-top: 2px;
+            height: 42vh;
+        }
+
+        .two img {
+            width: 35%;
+            height: 325px;
+            margin-left: 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        .two h5 {
+            font-size: 70px;
+            margin-left: 480px;
+            margin-top: -340px;
+            letter-spacing: 5px ;
+            color: green;
+            font-weight: bold;
+        
+            }
+        
+        .twoa {
+            
+                background-color: white;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 43vh;
+                width: 30%;
+                border: 1px solid white;
+                border-radius: 10px;
+              
+                margin-left: 490px;
+                
+           
+        }
+        
+        
+        
+        .twoa p {
+            font-size: 15px;
+            text-align: left;
+           
+        }
+        
+        .twob {
+            
+                background-color: white;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 43vh;
+                width: 30%;
+                border: 2px solid white;
+                border-radius: 10px;
+                margin-top: -255px;
+                margin-bottom: 20px;
+                margin-left: 878px;
+                }
+        
+                .twob img {
+                    width: 365px;
+                    margin-left: 5px;
+                    margin-top: 2px;
+                    height: 42vh;
+                }
+
+
+                .two img {
+                    width: 35%;
+                    height: 325px;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    border-radius: 5px;
+                }
+
+                .three img {
+                    width: 35%;
+                    height: 325px;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    border-radius: 5px;
+                }
+        
+                .three h5 {
+                    font-size: 70px;
+                    margin-left: 480px;
+                    margin-top: -340px;
+                    letter-spacing: 5px ;
+                    color: green;
+                    font-weight: bold;
+                
+                    }
+                
+                .threea {
+                    
+                        background-color: white;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 43vh;
+                        width: 30%;
+                        border: 1px solid white;
+                        border-radius: 10px;
+                      
+                        margin-left: 490px;
+                        
+                   
+                }
+                
+                
+                
+                .threea p {
+                    font-size: 15px;
+                    text-align: left;
+                   
+                }
+                
+                .threeb {
+                    
+                        background-color: white;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 43vh;
+                        width: 30%;
+                        border: 2px solid white;
+                        border-radius: 10px;
+                        margin-top: -255px;
+                        margin-bottom: 20px;
+                        margin-left: 878px;
+                        }
+                
+                        .threeb img {
+                            width: 365px;
+                            margin-left: 5px;
+                            margin-top: 2px;
+                            height: 42vh;
+                        }
+                        
+
+                        .four img {
+                            width: 35%;
+                            height: 325px;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            border-radius: 5px;
+                        }
+                        
+                        .four h5 {
+                            font-size: 70px;
+                            margin-left: 480px;
+                            margin-top: -340px;
+                            letter-spacing: 5px ;
+                            color: green;
+                            font-weight: bold;
+                        
+                            }
+                        
+                        .foura {
+                            
+                                background-color: white;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                height: 43vh;
+                                width: 30%;
+                                border: 1px solid white;
+                                border-radius: 10px;
+                              
+                                margin-left: 490px;
+                                
+                           
+                        }
+                        
+                        
+                        
+                        .foura p {
+                            font-size: 15px;
+                            text-align: left;
+                           
+                        }
+                        
+                        .fourb {
+                            
+                                background-color: white;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                height: 43vh;
+                                width: 30%;
+                                border: 2px solid white;
+                                border-radius: 10px;
+                                margin-top: -255px;
+                                margin-bottom: 20px;
+                                margin-left: 878px;
+                                }
+                        
+                                .fourb img {
+                                    width: 365px;
+                                    margin-left: 5px;
+                                    margin-top: 2px;
+                                    height: 42vh;
+                                }
+                                       
+                                
+                                .five img {
+                                    width: 35%;
+                                    height: 325px;
+                                    margin-left: 20px;
+                                    margin-top: 10px;
+                                    border-radius: 5px;
+                                }
+                                
+                                .five h5 {
+                                    font-size: 70px;
+                                    margin-left: 480px;
+                                    margin-top: -340px;
+                                    letter-spacing: 5px ;
+                                    color: green;
+                                    font-weight: bold;
+                                
+                                    }
+                                
+                                .fivea {
+                                    
+                                        background-color: white;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        height: 43vh;
+                                        width: 30%;
+                                        border: 1px solid white;
+                                        border-radius: 10px;
+                                      
+                                        margin-left: 490px;
+                                        
+                                   
+                                }
+                                
+                                
+                                
+                                .fivea p {
+                                    font-size: 15px;
+                                    text-align: left;
+                                   
+                                }
+                                
+                                .fiveb {
+                                    
+                                        background-color: white;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        height: 43vh;
+                                        width: 30%;
+                                        border: 2px solid white;
+                                        border-radius: 10px;
+                                        margin-top: -255px;
+                                        margin-bottom: 20px;
+                                        margin-left: 878px;
+                                        }
+                                
+                                        .fiveb img {
+                                            width: 365px;
+                                            margin-left: 5px;
+                                            margin-top: 2px;
+                                            height: 42vh;
+                                        }
+
+                                        .six img {
+                                            width: 35%;
+                                            height: 325px;
+                                            margin-left: 20px;
+                                            margin-top: 10px;
+                                            border-radius: 5px;
+                                        }
+                                        
+                                        .six h5 {
+                                            font-size: 70px;
+                                            margin-left: 480px;
+                                            margin-top: -340px;
+                                            letter-spacing: 5px ;
+                                            color: green;
+                                            font-weight: bold;
+                                        
+                                            }
+                                        
+                                        .sixa {
+                                            
+                                                background-color: white;
+                                                background-position: center;
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+                                                height: 43vh;
+                                                width: 30%;
+                                                border: 1px solid white;
+                                                border-radius: 10px;
+                                              
+                                                margin-left: 490px;
+                                                
+                                           
+                                        }
+                                        
+                                        
+                                        
+                                        .sixa p {
+                                            font-size: 15px;
+                                            text-align: left;
+                                           
+                                        }
+                                        
+                                        .sixb {
+                                            
+                                                background-color: white;
+                                                background-position: center;
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+                                                height: 43vh;
+                                                width: 30%;
+                                                border: 2px solid white;
+                                                border-radius: 10px;
+                                                margin-top: -255px;
+                                                margin-bottom: 20px;
+                                                margin-left: 878px;
+                                                }
+                                        
+                                                .sixb img {
+                                                    width: 365px;
+                                                    margin-left: 5px;
+                                                    margin-top: 2px;
+                                                    height: 42vh;
+                                                }
+
+                                                .seven img {
+                                                    width: 35%;
+                                                    height: 325px;
+                                                    margin-left: 20px;
+                                                    margin-top: 10px;
+                                                    border-radius: 5px;
+                                                }
+                                                
+                                                .seven h5 {
+                                                    font-size: 70px;
+                                                    margin-left: 480px;
+                                                    margin-top: -340px;
+                                                    letter-spacing: 5px ;
+                                                    color: green;
+                                                    font-weight: bold;
+                                                
+                                                    }
+                                                
+                                                .sevena {
+                                                    
+                                                        background-color: white;
+                                                        background-position: center;
+                                                        background-repeat: no-repeat;
+                                                        background-size: cover;
+                                                        height: 43vh;
+                                                        width: 30%;
+                                                        border: 1px solid white;
+                                                        border-radius: 10px;
+                                                      
+                                                        margin-left: 490px;
+                                                        
+                                                   
+                                                }
+                                                
+                                                
+                                                
+                                                sevena p {
+                                                    font-size: 15px;
+                                                    text-align: left;
+                                                   
+                                                }
+                                                
+                                                .sevenb {
+                                                    
+                                                        background-color: white;
+                                                        background-position: center;
+                                                        background-repeat: no-repeat;
+                                                        background-size: cover;
+                                                        height: 43vh;
+                                                        width: 30%;
+                                                        border: 2px solid white;
+                                                        border-radius: 10px;
+                                                        margin-top: -255px;
+                                                        margin-bottom: 20px;
+                                                        margin-left: 878px;
+                                                        }
+                                                
+                                                        .sevenb img {
+                                                            width: 365px;
+                                                            margin-left: 5px;
+                                                            margin-top: 2px;
+                                                            height: 42vh;
+                                                        }
+
+                                                        .eight img {
+                                                            width: 35%;
+                                                            height: 325px;
+                                                            margin-left: 20px;
+                                                            margin-top: 10px;
+                                                            border-radius: 5px;
+                                                        }
+                                                        
+                                                        .eight h5 {
+                                                            font-size: 70px;
+                                                            margin-left: 480px;
+                                                            margin-top: -340px;
+                                                            letter-spacing: 5px ;
+                                                            color: green;
+                                                            font-weight: bold;
+                                                        
+                                                            }
+                                                        
+                                                        .eighta {
+                                                            
+                                                                background-color: white;
+                                                                background-position: center;
+                                                                background-repeat: no-repeat;
+                                                                background-size: cover;
+                                                                height: 43vh;
+                                                                width: 30%;
+                                                                border: 1px solid white;
+                                                                border-radius: 10px;
+                                                              
+                                                                margin-left: 490px;
+                                                                
+                                                           
+                                                        }
+                                                        
+                                                        
+                                                        
+                                                        .eighta p {
+                                                            font-size: 15px;
+                                                            text-align: left;
+                                                           
+                                                        }
+                                                        
+                                                        .eightb {
+                                                            
+                                                                background-color: white;
+                                                                background-position: center;
+                                                                background-repeat: no-repeat;
+                                                                background-size: cover;
+                                                                height: 43vh;
+                                                                width: 30%;
+                                                                border: 2px solid white;
+                                                                border-radius: 10px;
+                                                                margin-top: -255px;
+                                                                margin-bottom: 20px;
+                                                                margin-left: 878px;
+                                                                }
+                                                        
+                                                                .eightb img {
+                                                                    width: 365px;
+                                                                    margin-left: 5px;
+                                                                    margin-top: 2px;
+                                                                    height: 42vh;
+                                                                }
+                                                                       
+                                                               
+                                                       
+                                               
+                                
+                        
